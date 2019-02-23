@@ -46,8 +46,7 @@ try:
     print('[*] '+' Bombing is in Progress \n')
     while i < count:
         i+=1
-		 server.sendmail(email,vemail,BODY)
-        #server.sendmail(email,vemail,secrets.choice(BODY))
+        server.sendmail(email,vemail,BODY)
         if i == 1:
             print ('[✓] '+' %dst Bomb has been sent successfully ' %(i))
         elif i == 2:
